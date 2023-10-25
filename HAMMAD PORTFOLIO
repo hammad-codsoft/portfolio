@@ -1,0 +1,142 @@
+HTML CODE
+***********
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1><u>Syed Hammad Khalid</u></h1>
+      <p><u>Web Developer</u> </p>
+    </header>
+
+    <section id="about">
+      <img src="C:\Users\mdham\Downloads\phot1.jpg" alt="syed hammad" />
+    </section>
+
+    <section id="about1">
+      <h2>
+        I'm a passionate web developer with knowledge of  html,css and javascript.
+      </h2>
+    </section>
+
+    <section id="projects">
+      <h2><u>Projects</u></h2>
+      <div class="project">
+        <h3><u>Project 1</u></h3>
+        <p>coded a phone pay website .</p>
+        <img src="C:\Users\mdham\OneDrive\Pictures\screenshot\ppay.jpg.png" alt="Project 1" >
+       
+      </div>
+      <div class="project">
+        <h3><u>Project 2</u></h3>
+        <p>
+          Developed a portfolio showcasing my work.
+        </p>
+      </div>
+      <div class="project">
+        <h3><u>Project 3</u></h3>
+        <p>
+          Developed a calculator.
+        </p>
+        <img src="C:\Users\mdham\OneDrive\Pictures\screenshot\Screenshot 2023-10-26 015011.png"alt="Project 3" >
+      </div>
+    </section>
+    <section id="resume">
+      <h2> <u>My Resume</u></h2>
+      <p><a href="https://drive.google.com/file/d/1kBGCfycWQWxkF3SqO_y9fnzeLYoVPnna/view?usp=drive_link" download> Download Resume (PDF)</a></p>
+    </section>
+    <section id="contact">
+      <h2><u>Contact</u></h2>
+      <p>Email: mdhammad891@gmail.com</p>
+      <p>Phone: 7309672911</p>
+    </section>
+    <footer>
+      <p>&copy; 2023 syed hammad. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
+***********************************************************************************************************************
+CSS CODE
+********
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(131, 173, 199);
+    padding: 0;
+  }
+  
+  header {
+    background-color: #6a7247;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  #about1 {
+    text-align: center;
+    padding: 1px 0;
+  }
+  #about {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #about img {
+    width: 90px;
+    border-radius: 30%;
+  }
+  
+  #skills {
+    text-align: left;
+    padding: 10px 0;
+  }
+  
+  #skills ul {
+    list-style: none;
+  }
+  
+  #projects {
+    text-align: center;
+    padding: 20px 0;
+    
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project img {
+    max-width: 50%;
+    border-radius: 5px;
+  }
+  
+  #resume,
+  #contact {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #resume a {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #6a7247;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
