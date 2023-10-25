@@ -1,5 +1,5 @@
-HTML CODE
-***********
+HTML CODE-
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -61,8 +61,8 @@ HTML CODE
   </body>
 </html>
 ***********************************************************************************************************************
-CSS CODE
-********
+CSS CODE-
+
 
 body {
     font-family: Arial, sans-serif;
